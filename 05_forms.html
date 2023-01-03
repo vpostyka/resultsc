@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form action="">
+        <div>
+            <label for="text">Text</label>
+            <input id="text" type="text" placeholder="Type here">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" value="He he he" readonly>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="">Number</label>
+            <input type="number" min="0">
+        </div>
+
+        <div>
+            <label for="">Range</label>
+            <input type="range" min="0" max="100" step="1">
+        </div>
+
+        <div>
+            <label for="">Date</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label for="">Color</label>
+            <input type="color">
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="" id="message" cols="15" rows="10"></textarea>
+        </div>
+        <hr>
+        <div>
+            <label for="sex">Select</label>
+            <select type="text" id="sex">
+                <option value="male">man</option>
+                <option value="female" selected>woman</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Count works</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 3
+            <input type="radio" name="work"> 4
+            <input type="radio" name="work"> 5
+        </div>
+
+        <div>
+            <label>Food</label>
+            <input type="checkbox" name="food"> 1
+            <input type="checkbox" name="food"> 2
+            <input type="checkbox" name="food"> 3
+            <input type="checkbox" name="food"> 4
+            <input type="checkbox" name="food"> 5
+        </div>
+
+        <input type="submit" value="Submit Form">
+        <button type="submit">Submit Form</button>
+
+    </form>
+</body>
+
+</html>
